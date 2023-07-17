@@ -1,0 +1,94 @@
+/* Map*/
+.map{
+    width: 100%;
+    min-height: 400px;
+}
+
+.team_section .all_team_cards{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.all_team_cards .team_card{
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.all_team_cards .team_card:hover{
+    border-radius: 50%;
+}
+.team_section .all_team_cards .team_card img{
+    width: 220px;
+    height: 220px; 
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.team_section .all_team_cards .team_card:hover img{
+    border-radius: 50%;
+    transform: translateY(-90px);
+}
+.team_section .all_team_cards .team_card .t_description{
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    transition: 0.4s;
+    opacity: 0;
+}
+.team_section .all_team_cards .team_card:hover .t_description{
+    transform: translateY(115px);
+    opacity: 1;
+ }
+.team_section .all_team_cards .team_card .t_description h3{
+    
+    margin-bottom: 10px;
+}
+.team_section .all_team_cards .team_card .t_description p{
+    text-align: center;
+    margin: 0 auto 8px auto;
+    width: 70%;
+    font-size: 14px;
+    color: #000;
+}
+.team_section .all_team_cards .team_card .t_description .t_list_i i{
+    cursor: pointer;
+    transition: 0.3s;
+    margin:2px;
+    color: #ff9933;
+}
+.team_section .all_team_cards .team_card .t_description .t_list_i i:hover{
+    color: #ff9933;
+}
+
+.all_team_cards .team_card h5{
+    transition: all 0.4s;
+}
+
+.all_team_cards .team_card:hover img{
+    margin-left: 105px;
+} 
+
+.all_team_cards .team_card:hover h5{
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.all_team_cards .team_card p{
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+  
